@@ -1,0 +1,56 @@
+body {
+background-image: url(Chicken.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    float: right;
+}
+li a {
+    background-color:none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+li a:hover {
+    background-color: red;
+  }
+
+a:link, a:visited {
+   
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: red;
+}
+
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
+  button{
+    background-color:rgb(111, 131, 128);
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+  }
